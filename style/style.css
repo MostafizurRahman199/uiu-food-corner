@@ -95,6 +95,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px;
 }
 
 .food_card_div {
@@ -137,7 +138,8 @@ body {
 .card_parent {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 20px;
+  margin-top: 48px;
 }
 
 .card {
@@ -146,8 +148,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  width: 424px;
-  height: 525px;
+  width: 300px;
+  height: 400px;
 }
 
 .card_name {
@@ -176,7 +178,7 @@ body {
 
 .card img {
   border-radius: 16px;
-  width: 424px;
+  width: 300px;
   height: 283px;
 }
 
@@ -207,7 +209,8 @@ body {
 
 width: 100%;
 height: 671px;
-margin-top: 100px;
+margin-top: 150px;
+margin-bottom: 100px;
 }
 
 .social_parent{
@@ -313,3 +316,52 @@ letter-spacing: 0%;
 text-align: center;
 
 }
+
+.single_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+
+}
+
+.single_inner_card{
+
+width: 424px;
+height: 655px;
+left: 724px;
+top: 216px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+gap: 20px;
+
+}
+
+
+.food_card_btn_2 {
+    border-radius: 8px;
+  
+    background: rgb(82, 195, 3);
+    padding: 6px 32px;
+    width: 207px;
+    height: 66px;
+    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    margin-top: 44px;
+  }
+
+
+    
