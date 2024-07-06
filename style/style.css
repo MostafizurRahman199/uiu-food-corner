@@ -68,9 +68,9 @@ body {
 }
 
 .hero_div {
-  position: static;
+
   width: 1000px;
-  height: 215px;
+  /* height: 215px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -79,7 +79,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 24px 0px;
+  /* margin: 0px 0px; */
 }
 
 .hero {
@@ -209,8 +209,8 @@ body {
 
 width: 100%;
 height: 671px;
-margin-top: 150px;
-margin-bottom: 100px;
+margin-top: 30px;
+margin-bottom: 50px;
 }
 
 .social_parent{
@@ -277,13 +277,17 @@ border: 2px 0px;
 
 .social_child_image{
 
+    display: flex;
+justify-content: center;
+height: 700px;
+align-items: center;
 
 
 }
 .social_image{
 
-width: 800px;
-height: 600px;
+width: 100%;
+height: 500px;
 left: 0;
 top: 0;
 background-position: center;
