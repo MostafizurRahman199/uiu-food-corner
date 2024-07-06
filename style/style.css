@@ -52,160 +52,264 @@ body {
   text-align: center;
   margin-top: 24px;
   opacity: 0.7;
-
 }
 
 .hero_btn_1 {
-
-    border-radius: 8px;
-    background: rgb(82, 195, 3);
-    padding: 21px 32px;
-    border: none;
-    font-family: "Work Sans", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    margin-top: 32px;
-
-
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  padding: 21px 32px;
+  border: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  margin-top: 32px;
 }
 
-.hero_div{
-    position: static;
-    width: 1000px;
-    height: 215px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 24px 0px;
+.hero_div {
+  position: static;
+  width: 1000px;
+  height: 215px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
 
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*------------ Food card section--------  */
+.food_card {
+  margin: 50px auto;
+  width: 1320px;
+  height: 746px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.food_card_div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.food_banner_div h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 691px;
+  height: 128px;
+  gap: 16px;
+}
+.food_banner_div p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.food_banner_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_parent {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 424px;
+  height: 525px;
+}
+
+.card_name {
+  border-radius: 8px;
+  padding: 14px 32px;
+  background: rgba(82, 195, 3, 0.15);
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card_description {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.card img {
+  border-radius: 16px;
+  width: 424px;
+  height: 283px;
+}
+
+.food_card_btn {
+  border-radius: 8px;
+
+  background: rgb(82, 195, 3);
+  padding: 6px 32px;
+  width: 207px;
+  height: 66px;
+  color: white;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+  margin-top: 64px;
 }
 
 
-.hero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* SOCIAL MEDIA SECTION */
+
+.social_media_section{
+
+
+width: 100%;
+height: 671px;
+margin-top: 100px;
 }
 
-.food_card{
-    margin: 50px  auto;
-    width: 1320px;
-    height: 746px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.food_card_div{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+.social_parent{
+  
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);gap: 0px;
+     
    
 }
-.food_banner_div h1{
-    color: rgb(16, 16, 16);
-    font-family: Work Sans;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 64px;
-    letter-spacing: 0%;
-    text-align: center;
-    width: 691px;
-    height: 128px;
-    gap: 16px;
+
+.social_child_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 136px 53px;
+    gap: 20px;
+  
+
 }
-.food_banner_div p{
-    color: rgb(16, 16, 16);
-    font-family: Work Sans;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0%;
+
+.social_child_para{
     text-align: center;
+    border: 1px 0px solid black;
+    margin-top: 24px;
     opacity: 0.6;
 
 }
 
-.food_banner_div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.follow_div{
+
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    margin-top: 48px;
+    margin-bottom: 32px;
+    padding: 20px 0px ;
 }
 
-
-.card_parent{
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
-
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    width: 424px;
-    height: 525px;
-}
-
-.card_name{
-    border-radius: 8px;
-    padding: 14px 32px;
-
-background: rgba(82, 195, 3, 0.15);
-color: rgb(16, 16, 16);
-font-family: Work Sans;
-font-size: 24px;
-font-weight: 600;
-line-height: 28px;
-letter-spacing: 0%;
-text-align: center;
-}
-
-.card_description{
+.social_follow_para{
+    text-align: center;
     color: rgb(16, 16, 16);
 font-family: Work Sans;
-font-size: 18px;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+border: 2px 0px;
+}
+.social_icon {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.social_icon ul{
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+    list-style: none;
+
+    
+}
+
+.social_child_image{
+
+
+
+}
+.social_image{
+
+width: 800px;
+height: 600px;
+left: 0;
+top: 0;
+background-position: center;
+}
+
+.social_icon ul img{
+   width: 40px;
+   height: 40px;
+
+    
+}
+
+.social_child_headline{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.social_child_para{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
 font-weight: 500;
 line-height: 28px;
 letter-spacing: 0%;
 text-align: center;
-opacity: 0.7;
 
-}
-
-.card img{
-    border-radius: 16px;
-    width: 424px;
-    height: 283px;
-}
-
-.food_card_btn{
-    border-radius: 8px;
-
-background: rgb(82, 195, 3);
-padding: 6px 32px;
-width: 207px;
-height: 66px;
-color: white;
-color: rgb(255, 255, 255);
-font-family: Work Sans;
-font-size: 18px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-border: none;
-margin-top: 64px;
 }
